@@ -8,4 +8,8 @@ public interface ProjectConfig extends Config {
 
     @Key("base_url")
     String baseUrl();
+    @Key("login")
+    String login();
+    @Key("password")
+    String password();
 }
